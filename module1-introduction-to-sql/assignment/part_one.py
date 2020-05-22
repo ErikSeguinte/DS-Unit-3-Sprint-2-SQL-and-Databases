@@ -1,14 +1,11 @@
 import sqlite3
 from pathlib import Path
 
-path = Path("rpg_db.sqlite3")
+path = Path("../rpg_db.sqlite3")
 
 conn = sqlite3.connect(path)
 # conn.row_factory = sqlite3.Row
 c = conn.cursor()
-query = "select * from Armory_item;"
-
-result = c.execute(query).fetchall()
 
 q = """
 select 
