@@ -1,7 +1,6 @@
 from pathlib import Path
 from dotenv import load_dotenv
 load_dotenv()
-from urllib import parse
 import os
 import pymongo
 import dns
