@@ -1,7 +1,7 @@
 import sqlite3
 from pathlib import Path
 
-path = Path("../rpg_db.sqlite3")
+path = Path("module1-introduction-to-sql/rpg_db.sqlite3")
 
 conn = sqlite3.connect(path)
 # conn.row_factory = sqlite3.Row
